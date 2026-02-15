@@ -1,0 +1,40 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+ENV/
+
+# Models (too large for git)
+models/
+*.bin
+*.pt
+*.pth
+*.onnx
+
+# Data
+data/incoming/*
+data/processed/*
+data/cache/*
+lecture_db/
+*.db
+
+# Logs
+logs/
+*.log
+
+# Environment
+.env
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
